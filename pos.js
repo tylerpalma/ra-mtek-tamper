@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ra-Mtek-POS
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://rayoga.marianatek.com/admin/cart/*
@@ -23,6 +23,8 @@
       'button#product-14768,',
       'button#product-14896',
   ]
+
+  console.log('initialized')
 
   let cssString = ''
 
