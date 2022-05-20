@@ -31,7 +31,6 @@
   });
 
   cssString = cssString + ' { display: none; }'
-  console.log(cssString);
 
   GM_addStyle(cssString)
 
