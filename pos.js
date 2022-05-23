@@ -5,14 +5,19 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://rayoga.marianatek.com/admin/cart/*
+// @resource     IMPORTED_CSS https://raw.githubusercontent.com/tylerpalma/ra-mtek-tamper/main/pos.css
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
-// @grant        none
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {
   'use strict';
 
-  const excludeList = [
+  const css = GM_getResourceText("IMPORTED_CSS");
+  GM_addStyle(css);
+
+  /*const excludeList = [
       'button#product-15301,',
       'button#product-15260,',
       'button#product-15325,',
@@ -46,5 +51,5 @@
       })();
       const sheet = style.sheet;
       sheet.insertRule(css, (sheet.rules || sheet.cssRules || []).length);
-  }
+  }*/
 })();
