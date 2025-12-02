@@ -10,7 +10,6 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
-// @updateURL    https://raw.githubusercontent.com/tylerpalma/ra-mtek-tamper/main/pos.js
 // ==/UserScript==
 
 (function() {
