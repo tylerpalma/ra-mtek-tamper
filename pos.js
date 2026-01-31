@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ra-Mtek-POS
 // @namespace    http://tampermonkey.net/
-// @version      0.3.4
+// @version      0.3.5
 // @description  try to take over the world!
 // @author       You
 // @match        https://rayoga.marianatek.com/*
